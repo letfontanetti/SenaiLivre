@@ -245,3 +245,314 @@ footer {
     gap: 15px;
 }
 
+/*------------------------LOGIN SENAI LIVRE--------------------------*/
+
+.formulario-form form input{
+    display: block; 
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--cor-header);
+    border-radius: 10px;
+    width: 350px;
+    margin-bottom: 10px;
+    margin: 10px auto;
+}
+
+.formulario-form button{
+    background-color: var(--cor-linda);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.formulario{
+    text-align: center;
+}
+
+.formulario-title{
+    padding: 10px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*---------------------------------CARRINHO-----------------------------*/
+.header-carrinho {
+    background-color: var(--cor-header);
+    padding: 15px;
+    color: var(--cor-preto);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+#main-carrinho {
+    padding: 20px;
+}
+
+#main-carrinho .partedecima {
+    text-align: center;
+    padding: 20px;
+}
+
+#main-carrinho .carrinho {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+#main-carrinho .carrinho .parteum .sacola {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    padding: 5px;
+}
+
+#main-carrinho .carrinho .parteum .sacola .localizacao {
+    display: flex;
+    justify-content: center;
+}
+
+#main-carrinho .carrinho .parteum table {
+    width: 100%;
+    height: 100%;
+}
+
+#main-carrinho .carrinho .parteum .imagem {
+    text-align: center;
+}
+
+#main-carrinho .carrinho .parteum .imagem img {
+    width: 280px;
+    padding: 5px;
+}
+
+#main-carrinho .carrinho .dupla {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+#main-carrinho .carrinho .dupla .pedido {
+    background-color: #D9D9D9;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-carrinho .carrinho .dupla .pedido button {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+#main-carrinho .carrinho .dupla .pagamento {
+    background-color: #D9D9D9;
+    padding: 20px;
+}
+
+/*-------------------------------FRITADEIRA PT CIMA-----------------------*/
+
+.descri{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 70px;
+    gap: 70px;
+    font-size: 20px;
+}
+.frit img{
+    width: 400px;
+}
+ main .button-compra{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+ }
+
+ /*--------------------------------FRITADEIRA PT BAIXO----------------------*/
+ .flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+} 
+
+
+.flex div{
+    border: solid black 2px;
+    padding: 10px;
+    border-radius: 20px 1px;
+}
+
+.flex{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.flex button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+}
+
+.camera, .labtop, .cadeira{
+    padding: 25px; 
+}
+
+.sugestoes p, .descri p{
+    color: green;
+} 
+
+.sugestoes h7, .descri h7{
+    color:dimgrey;
+} 
+
+.compra button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+}
+
+.sugestoes{
+    text-align: center;
+}
+
+/*--------------------------------------DASHBOARD--------------------------------*/
+main .mae{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.filho1{
+    background-color: #1E1E2D;
+    height: 150vh;
+}
+
+.filho1 h6{
+    color: white;
+}
+
+main .mae .filho1 .escrita .painelc{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .usuario{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .myconta{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .segury{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .corp{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .esport{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .academy{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .relaty{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .costumy{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .alerty{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae h6{
+    margin-left: 10px;
+}
+
+.imglogo{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+/*-------------------------MEIO DA DASHBOARD--------------------------*/
+
+ main .divfilhos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px 55px;
+    gap: 20px;
+ }
+
+ .textdash{
+    margin: 35px;
+ }
+
+ .textdash p{
+    margin: 9px;
+    color: dimgray;
+ }
+
+ .mae2 .divfilhos .filho2 .filho3 .filho4 .filho5{
+    border-radius: 30px;
+ }
+
+ .divfilhos{
+    justify-items: center;
+ }
+
+ .filho{
+    border: 4px solid grey;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+ }
+ .filho i{
+    font-size: 3em;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+ }
+
+ .filho h4{
+    margin: 10px;
+ }
+
+ .filho p{
+    margin: 5px;
+ }
+
+ 
+
+
+
+ 
+
+
+
